@@ -1,0 +1,51 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sensitive Data
+*.key
+*.pem
+passwords.txt
+secrets/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+~*
+
+# Logs
+*.log
+
+# Large Binary Files (if needed, use Git LFS)
+*.iso
+*.zip
+*.rar
+
+# Build outputs
+/build/
+/dist/
+/out/
+
+# OS files to exclude
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Cache
+__pycache__/
+*.pyc
+.cache/
+
+# Environment files
+.env
+.env.local
